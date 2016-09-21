@@ -1,5 +1,7 @@
 # Python setup scripts
 
+[![Build Status](https://travis-ci.org/jpgdev/python_setup.svg?branch=master)](https://travis-ci.org/jpgdev/python_setup)
+
 A python app to replace my current .sh setup scripts.
 
 - It should make easier backing up manually a list of packages I want to keep through arch install and not only backing up everything.
