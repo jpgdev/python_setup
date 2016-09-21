@@ -1,0 +1,10 @@
+# Bases packages
+pkgs:
+    - git
+    - vim
+    - python2
+    - python3
+    - cmake
+    - zsh
+    - ranger
+    - openssh

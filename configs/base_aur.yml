@@ -1,0 +1,12 @@
+pkgs:
+    - dockbarx
+    - fzf
+    - grive
+    - grive-tools
+    - google-chrome
+    - spotify
+    - visual-studio-code
+    - xfce4-volumed
+    - xfce4-dockbarx-plugin-git
+    - xfce4-pulseaudio-plugin
+    - xfce4-indicator-plugin

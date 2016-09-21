@@ -1,0 +1,32 @@
+pkgs:
+    - blueman
+    - bluez
+    - bluez-utils
+    - gnome-keyring
+    - gvfs
+    - gvfs-mtp
+    - lib32-alsa-plugins
+    - lib32-libpulse
+    - lib32-mesa-libgl
+    - mesa-libgl
+    - ncdu
+    - network-manager-applet
+    - networkmanager
+    - p7zip
+    - pavucontrol
+    - pulseaudio
+    - pulseaudio-alsa
+    - skype
+    - unrar
+    - unzip
+    - vlc
+    - xarchiver
+    - xf86-input-synaptics
+    - xfce4
+    - xfce4-goodies
+    - xfce4-screenshooter
+    - xorg-server
+    - xorg-xinit
+    - xorg-xrefresh
+    - xterm
+

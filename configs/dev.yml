@@ -1,0 +1,18 @@
+pkgs:
+    - nodejs
+    - npm
+    - postgresql
+    - postgresql-libs
+    - pgadmin3
+    - redis
+    - synapse
+    - synergy
+    - the_silver_surfer
+aur:
+    - visual-studio-code
+    - redis-desktop-manager-bin
+
+npm:
+    - bower
+    - grunt
+    - grunt-cli

@@ -1,0 +1,122 @@
+# Bases packages
+base:
+    - git
+    - vim
+    - python2
+    - python3
+    - cmake
+    - zsh
+    - fish
+    - ranger
+    - openssh
+
+base_aur:
+    - dockbarx
+    - fzf
+    - grive
+    - grive-tools
+    - google-chrome
+    - spotify
+    - visual-studio-code
+    - xfce4-volumed
+    - xfce4-dockbarx-plugin-git
+    - xfce4-pulseaudio-plugin
+    - xfce4-indicator-plugin
+
+video:
+    drivers :
+        - nvidia
+        - mesa
+        - xf86-video-intel
+        - lib32-virtualgl
+        - lib32-nvidia-utils
+        - lib32-mesa-libgl
+
+    bumblebee :
+        - bumblebee
+        - bbswitch
+
+
+xserver :
+    - blueman
+    - bluez
+    - bluez-utils
+    - gnome-keyring # Required to keep wifi passwords
+    - gnome-calculator
+    - gvfs
+    - gvfs-mtp
+    - lib32-alsa-plugins
+    - lib32-libpulse
+      # - lib32-mesa-libgl
+    - mesa-libgl
+    - ncdu
+    - network-manager-applet
+    - networkmanager
+    - p7zip
+    - pavucontrol
+    - pulseaudio
+    - pulseaudio-alsa
+    - skype
+    - unrar
+    - unzip
+    - vlc
+    - xarchiver
+    - xf86-input-synaptics
+    - xfce4
+    - xfce4-goodies
+    - xfce4-screenshooter
+    - xorg-server
+    - xorg-xinit
+    - xorg-xrefresh
+    - xterm
+
+theming:
+    aur:
+        theme:
+            - paper-gtk-theme-git
+            - gtk-theme-arc
+        icons:
+            - paper-icon-theme-git
+            - arc-icon-theme
+        fonts:
+            - ttf-hack-powerline-git
+
+dev:
+    base:
+        - nodejs
+        - npm
+        - postgresql
+        - postgresql-libs
+        - pgadmin3
+        - redis
+        - synapse
+        - synergy
+        - the_silver_surfer
+
+    aur:
+        - visual-studio-code
+        - redis-desktop-manager-bin
+
+    # Global npm packages
+    npm:
+        - bower
+        - grunt
+        - grunt-cli
+        - jshint
+    python:
+        - jedi
+dev_vim:
+    # - npm
+    # - python2
+    - ttf-dejavu-sans-mono-powerline-git
+    - ctags
+
+misc:
+    pidgin :
+        official:
+            - pidgin
+        aur :
+            - pidgin-opensteamworks
+            - purple-facebook
+            - skype4pidgin-git
+

@@ -1,0 +1,28 @@
+## Setup Scripts
+
+☐ Add a script to init PYTHON & PIP to be able to use the CLI app
+☐ Add a CLI app in front of the scripts
+☐ Add options to install all (like the current SETUP_ARCH.sh)
+☐ Add options to install 1 by 1
+    ☐ Add requirements for scripts ex: `lightdm` setup requires `xserver` setup
+
+## Scripts
+
+☐ Setup arch
+☐ Setup xserver
+☐ Setup Bumblebee
+☐ Setup base AUR packages
+☐ Setup Dev env
+
+## Packages lists (yml files?)
+
+Archive:
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+✔ Setup arch (base_pkg.yml) @done (2016-09-21 15:36)
+    ✔ Ex : xserver_pkg.yml, base_pkg.yml (git, vim, python2/3, cmake, zsh/fish, ranger, openssh) @done (2016-09-21 15:36)
+✔ Add the packages names to YML/JSON/other files @done (2016-09-21 15:36)
+✔ Setup xserver (xserver_pkg.yml) @done (2016-09-21 15:36)
+✔ Setup Bumblebee (bumblebee_pkg.yml) @done (2016-09-21 15:36)
+✔ Setup base AUR packages (base_aur_pkg.yml) @done (2016-09-21 15:36)
+✔ Setup Dev env (dev_pkg.yml, dev_aur_pkg.yml, deb_npm_pkg.yml) @done (2016-09-21 15:36)
+✔ Setup VIM () @done (2016-09-21 15:36)
